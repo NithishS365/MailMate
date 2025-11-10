@@ -1,0 +1,50 @@
+# Core dependencies for EmailDataLoader
+pandas>=1.5.0
+faker>=15.0.0
+
+# For email processing
+email-validator>=1.3.0
+
+# Machine Learning dependencies for EmailClassifier
+scikit-learn>=1.3.0
+numpy>=1.24.0
+joblib>=1.3.0
+
+# HuggingFace Transformers for EmailClassifier and EmailSummarizer
+transformers>=4.30.0
+torch>=2.0.0
+# accelerate>=0.20.0  # Optional for faster training
+
+# Text-to-Speech dependencies for TextToSpeech module
+gtts>=2.3.0              # Google Text-to-Speech (online)
+pyttsx3>=2.90            # Offline text-to-speech
+pygame>=2.5.0            # Optional for audio playback
+
+# OAuth2 and Authentication dependencies
+aiohttp>=3.8.0           # Async HTTP client for API calls
+PyJWT>=2.8.0             # JWT token handling
+cryptography>=41.0.0     # Encryption for secure credential storage
+google-auth>=2.0.0       # Google OAuth2 support
+google-auth-oauthlib>=0.5.0
+microsoft-graph-auth>=0.1.0  # Microsoft OAuth2 support
+
+# Async and Task Queue dependencies
+celery>=5.3.0            # Distributed task queue
+redis>=4.6.0             # Message broker for Celery
+kombu>=5.3.0             # Messaging library
+
+# CLI interface dependencies
+typer>=0.9.0            # Modern CLI framework
+python-dotenv>=1.0.0    # Environment configuration management
+
+# Web API dependencies
+flask>=3.0.0
+flask-cors>=4.0.0
+flask-socketio>=5.3.0
+
+# Development dependencies
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=22.0.0
+flake8>=5.0.0
+mypy>=0.991

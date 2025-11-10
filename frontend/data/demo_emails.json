@@ -1,0 +1,62 @@
+[
+  {
+    "id": "demo_001",
+    "subject": "Demo Email 1",
+    "from_address": "sender1@example.com",
+    "to_address": "user@mailmate.com",
+    "body": "This is demo email content for email 1.",
+    "category": "Work",
+    "priority": "High",
+    "timestamp": "2025-10-15T15:51:13.751855",
+    "is_read": true,
+    "attachments": []
+  },
+  {
+    "id": "demo_002",
+    "subject": "Demo Email 2",
+    "from_address": "sender2@example.com",
+    "to_address": "user@mailmate.com",
+    "body": "This is demo email content for email 2.",
+    "category": "Personal",
+    "priority": "Medium",
+    "timestamp": "2025-10-15T15:51:13.762538",
+    "is_read": false,
+    "attachments": []
+  },
+  {
+    "id": "demo_003",
+    "subject": "Demo Email 3",
+    "from_address": "sender3@example.com",
+    "to_address": "user@mailmate.com",
+    "body": "This is demo email content for email 3.",
+    "category": "Finance",
+    "priority": "Low",
+    "timestamp": "2025-10-15T15:51:13.773155",
+    "is_read": false,
+    "attachments": []
+  },
+  {
+    "id": "demo_004",
+    "subject": "Demo Email 4",
+    "from_address": "sender4@example.com",
+    "to_address": "user@mailmate.com",
+    "body": "This is demo email content for email 4.",
+    "category": "Shopping",
+    "priority": "High",
+    "timestamp": "2025-10-15T15:51:13.783640",
+    "is_read": true,
+    "attachments": []
+  },
+  {
+    "id": "demo_005",
+    "subject": "Demo Email 5",
+    "from_address": "sender5@example.com",
+    "to_address": "user@mailmate.com",
+    "body": "This is demo email content for email 5.",
+    "category": "Travel",
+    "priority": "Medium",
+    "timestamp": "2025-10-15T15:51:13.794335",
+    "is_read": false,
+    "attachments": []
+  }
+]

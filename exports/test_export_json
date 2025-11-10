@@ -1,0 +1,28 @@
+{
+  "emails": [
+    {
+      "id": "email_1",
+      "subject": "Test Email 1",
+      "body": "This is a test email body",
+      "category": "Work",
+      "priority": "High",
+      "timestamp": "2023-10-15T10:00:00Z"
+    },
+    {
+      "id": "email_2",
+      "subject": "Test Email 2",
+      "body": "Another test email",
+      "category": "Personal",
+      "priority": "Medium",
+      "timestamp": "2023-10-15T11:00:00Z"
+    }
+  ],
+  "metadata": {
+    "export_date": "2025-10-15T21:03:49.923186",
+    "format": "JSON",
+    "total_records": 2,
+    "filters_applied": {},
+    "version": "1.0.0",
+    "generated_by": "MailMate Dashboard"
+  }
+}
