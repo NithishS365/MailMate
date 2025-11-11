@@ -542,166 +542,20 @@ importance_score = (
 - LOW: 30-49 (low priority)
 - MINIMAL: 0-29 (can be deferred)
 
-### Bulk Operations System
-Efficient batch processing for email management:
-- **Single API call** for multiple operations
-- **Transactional safety** with rollback support
-- **Response includes count** of affected emails
-- **Optimized queries** for performance
-- **Error handling** for individual failures
 
-### Professional UI Design System
-GitHub-inspired color palette for professional appearance:
 
-| Element | Color | Usage |
-|---------|-------|-------|
-| Primary | #0366d6 | Links, buttons, active states |
-| Primary Dark | #044289 | Hover states |
-| Text Primary | #24292e | Main text content |
-| Text Secondary | #586069 | Labels, metadata |
-| Background | #f6f8fa | Page background |
-| Border | #e1e4e8 | Subtle dividers |
-| Success | #2ed573 | Positive trends |
-| Danger | #d73a49 | Negative trends, delete |
-| Warning | #ffd33d | Star indicator |
 
-**Design Principles**:
-- Minimal shadows (subtle depth only)
-- Clean borders (1px solid #e1e4e8)
-- Hover accents (3px bottom bars)
-- Smooth transitions (0.2s ease)
-- Responsive grid layouts
 
-### Custom Email Generation
-Modify `backend/app/services/email_generator.py` to:
-- Add new categories
-- Customize email templates
-- Change sender profiles
-- Adjust generation parameters
 
-### ML Model Tuning
-Edit `backend/app/ml/classifier.py` to:
-- Switch between Naive Bayes and Logistic Regression
-- Adjust TF-IDF parameters (max_features, ngram_range)
-- Modify feature extraction
-- Fine-tune classification thresholds
 
-### UI Customization
-Edit CSS files in `frontend/src/styles/` to:
-- Change color scheme (update CSS variables in App.css)
-- Modify layout and spacing
-- Adjust responsive breakpoints
-- Customize animations and transitions
 
-## 📈 Future Enhancements
 
-- Real Gmail API integration
-- Email threading and conversations
-- Advanced NLP for sentiment analysis
-- Automated email responses with AI
-- Scheduled digest delivery via email
-- Mobile app version (React Native)
-- Email attachments support with preview
-- Multi-user authentication and authorization
-- **Backend persistence for star/archive** (currently frontend-only)
-- **Email composition modal** with AI suggestions
-- **Real-time notifications** for high-priority emails
-- **Snooze functionality** for deferred reading
-- **Email templates** for quick replies
-- **Smart categorization** with active learning
-- **Spam detection** with ML models
-- **Email tracking** and read receipts
-- **Dark mode** UI theme
 
-## 🤝 Contributing
-
-This is a demonstration project for educational purposes. Contributions are welcome! Feel free to:
-- Fork the repository
-- Add new features (see Future Enhancements for ideas)
-- Improve ML models and algorithms
-- Enhance UI/UX with better designs
-- Fix bugs and optimize performance
-- Add tests (unit tests, integration tests)
-- Improve documentation
-
-**Recent Contributions**:
-- Advanced search system with multi-filter support
-- ML-based importance scoring algorithm
-- Bulk operations for efficient email management
-- Professional UI redesign with GitHub-inspired theme
-- Enhanced analytics with time-series data
-
-## 📚 Documentation
-
-For detailed documentation on new features, see:
-- `FEATURES_UPDATE.md` - Comprehensive guide to all new features
-- API documentation at `http://localhost:8000/docs` (when backend is running)
-- Inline code comments in source files
-
-## 📄 License
-
-This project is created for educational and demonstration purposes.
-
-## 👨‍💻 Author
-
-Data Science Project - MailMate  
-**Demonstrating**: FastAPI, Machine Learning, React, Data Visualization, Advanced Search, Bulk Operations, Importance Scoring, and Professional UI Design
-
-**Tech Stack**: Python 3.13, FastAPI 0.115, React 18, MySQL 8.0, Scikit-learn 1.7, Recharts 2.10
-
-## 🙏 Acknowledgments
-
-- FastAPI for excellent Python web framework with async support
-- React for powerful UI library with hooks
-- Scikit-learn for comprehensive ML capabilities
-- Recharts for beautiful and interactive visualizations
-- GitHub for design inspiration and color palette
-- The open-source community for amazing tools and libraries
 
 ---
 
 **Note**: This is a simulated email system for demonstration purposes. For production use, implement proper security, authentication, and use real email APIs.
 
-## 📞 Support
 
-For issues or questions:
-1. Check the comprehensive feature documentation in `FEATURES_UPDATE.md`
-2. Review the API documentation at `http://localhost:8000/docs`
-3. Check the console logs in both backend and frontend terminals
-4. Ensure all dependencies are correctly installed with proper versions
-5. Verify database connection settings in `.env` file
-6. Check that MySQL service is running
-7. Ensure ports 8000 (backend) and 3000 (frontend) are available
 
-**Common Issues**:
-- **Import errors**: Ensure virtual environment is activated and all packages installed
-- **Database connection**: Verify MySQL credentials in `.env` file
-- **Port conflicts**: Check if ports 8000/3000 are already in use
-- **CORS errors**: Ensure backend CORS settings include frontend URL
-- **Search not working**: Verify backend is running and `/api/emails/search` endpoint is accessible
 
-**Happy Email Managing! 📧✨**
-
----
-
-## 🔖 Version History
-
-**v2.0** (Latest) - Professional Redesign & Advanced Features
-- Advanced search with 7 filter parameters
-- Email quick actions (star, archive, delete)
-- Bulk operations for efficiency
-- ML-based importance scoring
-- GitHub-inspired UI redesign
-- Enhanced analytics with time-series data
-- Clean logging (SQL queries disabled)
-
-**v1.0** - Initial Release
-- AI email generation (50 emails)
-- ML classification (Naive Bayes)
-- Basic CRUD operations
-- Simple statistics dashboard
-- Daily digest with TTS
-
----
-
-**Built with ❤️ for Data Science & Modern Web Development**
