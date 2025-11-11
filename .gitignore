@@ -41,5 +41,9 @@ Thumbs.db
 *.h5
 *.model
 
+# Documentation (temporary/generated)
+*.md
+!README.md
+
 # Node
 node_modules/
